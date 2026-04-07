@@ -13,13 +13,21 @@ In this lab, we learned how to make clock dividers from two types of counters.
 
 ## Names
 
+Aslan Aliyev and Thomas Herrera
 ## Summary
+
+In this lap we implemented T flip flops and D flip flops to create a module divider and a ripple counter.
 
 ## Lab Questions
 
 ### 1 - Why does the Modulo Counter actually divide clocks by 2 * Count?
 
+Because every single flip flop outputs half of the actual frequency, so it divides by two based on how many flip flops you have. 
+
 ### 2 - Why does the ring counter's output go to all 1s on the first clock cycle?
+Because all 1's are the next vale in a rang, the values will go around the ring from all 0's to ones like a circle.
 
 ### 3 - What width of ring counter would you use to get to an output of ~1KHz?
+
+Width of 10 for a frequency of 1khz.
 
